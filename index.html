@@ -3,146 +3,134 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#fff5ec">
-<meta name="description" content="Un refugio hecho con amor para emprendedores de San Patricio del Chañar. Herramientas gratuitas de Ocarina Producciones.">
-<title>Mi Rinconcito Emprendedor · Un refugio para tus ideas</title>
+<meta name="theme-color" content="#fff8ed">
+<meta name="description" content="Un rinconcito sencillo y hecho con amor para emprendedores de San Patricio del Chañar.">
+<title>Mi Rinconcito Emprendedor 🌷</title>
 <style>
-:root{--ink:#51475b;--muted:#877c91;--cream:#fffaf3;--rose:#f6dce5;--peach:#ffe5d1;--butter:#fff0b9;--sage:#dcebdc;--mint:#edf5e9;--lilac:#eae2f7;--blue:#e2edf8;--green:#66876c;--line:#eee2df;--shadow:0 12px 34px #715b6a10}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:18px}body{margin:0;color:var(--ink);background:radial-gradient(ellipse at 0 0,#ffece1 0,transparent 32%),radial-gradient(ellipse at 100% 23%,#f2e9fa 0,transparent 27%),var(--cream);font:16px/1.55 "Trebuchet MS",ui-rounded,system-ui,-apple-system,sans-serif}button,input,select,textarea{font:inherit}button,summary{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid #b4a0d4;outline-offset:3px}a{color:#557d60;font-weight:800;overflow-wrap:anywhere}.wrap{width:min(100% - 28px,930px);margin:auto;padding:13px 0 26px}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}.brand{display:flex;align-items:center;gap:10px;font-weight:1000;letter-spacing:.2px}.brand-mark{width:45px;height:45px;display:grid;place-items:center;border-radius:17px;background:var(--butter);box-shadow:inset 0 -3px #efdca3;font-size:25px}.brand small{display:block;color:var(--muted);font-size:9px;letter-spacing:1.7px;font-weight:900}.free{border:1px solid #dbe9d8;border-radius:99px;padding:7px 11px;background:#f4f9ee;color:#66806a;font-size:10px;font-weight:900;white-space:nowrap}.hero{position:relative;overflow:hidden;border-radius:30px;border:1px solid #f0dfd9;background:linear-gradient(135deg,#f8dfe6 0%,#fff0d1 56%,#e4f0df 100%);padding:clamp(20px,4vw,34px);min-height:280px;box-shadow:var(--shadow)}.hero-copy{position:relative;z-index:2;max-width:510px}.kicker{font-size:10px;letter-spacing:1.7px;text-transform:uppercase;font-weight:1000;color:#90728b}.hero h1{font-size:clamp(35px,6.7vw,61px);line-height:.99;letter-spacing:-2.5px;margin:10px 0 14px;max-width:520px}.hero h1 em{font-style:normal;color:#66876c}.hero p{font-size:14px;color:#71667b;max-width:445px;margin:0;line-height:1.65}.hero .hello{display:inline-flex;align-items:center;gap:6px;margin-top:17px;background:#fffaf0d9;border:1px solid #ffffffb8;border-radius:99px;padding:8px 13px;font-size:11px;font-weight:900;color:#79647a}.landscape{position:absolute;right:0;bottom:0;width:46%;height:100%;min-width:240px;max-width:410px;opacity:.98;pointer-events:none}.landscape svg{width:100%;height:100%;display:block}.tiny-note{text-align:center;font-size:10px;color:#9b8c9a;margin:10px 0 17px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:17px 2px 11px}.section-heading h2{font-size:20px;line-height:1.15;letter-spacing:-.5px;margin:0}.section-heading p{font-size:11px;color:var(--muted);margin:4px 0 0}.doors{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:stretch}.door{border:1px solid var(--line);border-radius:24px;background:#fffdfb;overflow:hidden;box-shadow:var(--shadow);min-width:0;display:flex;flex-direction:column;transition:transform .18s,box-shadow .18s}.door:hover{transform:translateY(-2px);box-shadow:0 15px 32px #715b6a16}.door summary{list-style:none;padding:15px 15px 13px;display:flex;flex-direction:column;min-height:205px;flex:1}.door summary::-webkit-details-marker{display:none}.door:nth-child(1) summary{background:linear-gradient(160deg,#fff2cf,#fffaf5 85%)}.door:nth-child(2) summary{background:linear-gradient(160deg,#f7e1e9,#fffaf7 85%)}.door:nth-child(3) summary{background:linear-gradient(160deg,#e2efdf,#fffaf7 85%)}.door-top{display:flex;justify-content:space-between;align-items:start;gap:8px}.door-num{font-size:10px;font-weight:1000;color:#8e8293;letter-spacing:1px}.door-art{height:83px;display:flex;align-items:center;justify-content:center;font-size:53px;filter:drop-shadow(0 5px 1px #5b46520b);margin:4px 0 7px}.door-title{font-size:18px;letter-spacing:-.4px;line-height:1.15;font-weight:1000}.door-desc{font-size:11px;color:var(--muted);line-height:1.45;margin-top:6px}.enter{margin-top:auto;padding-top:12px;display:flex;justify-content:space-between;align-items:center;font-size:11px;font-weight:1000;color:#6b846b}.enter span:last-child{font-size:18px}.inside{padding:18px;border-top:1px solid #f1e7e4;background:#fffdfb}.inside h3{font-size:19px;line-height:1.2;letter-spacing:-.5px;margin:0 0 6px}.inside>p{font-size:12px;color:var(--muted);margin:0 0 14px}.field{margin:10px 0}.field label{display:block;font-size:12px;font-weight:900;margin-bottom:5px}.field input,.field select,.field textarea{display:block;width:100%;min-width:0;border:1px solid #e8dfe7;background:#fffefa;border-radius:13px;padding:11px 12px;color:var(--ink);font-size:14px}.field textarea{min-height:78px;resize:vertical}.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.btn{border:0;border-radius:99px;background:#6d8b70;color:#fff;font-size:12px;font-weight:1000;padding:11px 15px;min-height:43px;box-shadow:0 3px 0 #527457}.btn.alt{background:#eee7f8;color:#6e5b8c;box-shadow:0 3px 0 #d9cdea}.btn.peach{background:#f8e4d8;color:#785d58;box-shadow:0 3px 0 #e7cfc3}.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:11px}.actions .btn{flex:1}.result{background:linear-gradient(135deg,#e5f1e3,#fff8e4);border:1px solid #dce8d9;border-radius:18px;padding:14px;margin-top:12px}.rlabel{font-size:11px;color:#657b67;font-weight:900}.price{font-size:clamp(31px,5vw,39px);font-weight:1000;letter-spacing:-1.3px;line-height:1.25}.small{font-size:10px;color:var(--muted)}.metrics{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}.metric{background:#ffffffc9;border-radius:12px;padding:9px}.metric span{display:block;font-size:10px;color:var(--muted)}.metric strong{font-size:14px}.tip{background:#fff6e8;border:1px solid #f4e7d4;border-radius:15px;padding:12px;font-size:12px;color:#716174;margin:12px 0}.feedback{font-size:11px;color:#587a60;min-height:17px;margin-top:7px}.tip-card{background:#fff4e6;border:1px solid #f2e4d5;border-radius:18px;padding:15px;font-size:13px;line-height:1.65;color:#665a6d;min-height:95px}.tip-label{display:block;font-size:10px;font-weight:1000;color:#9a7a79;letter-spacing:1px;margin-bottom:6px}.checks{display:grid;gap:10px;margin:13px 0}.check{display:flex;gap:10px;align-items:flex-start;font-size:12px;color:#62586b}.check input{accent-color:var(--green);margin-top:4px;flex:0 0 auto}.bar{height:8px;background:#f0e7e7;border-radius:99px;overflow:hidden;margin:9px 0 5px}.bar span{display:block;height:100%;width:0;background:#91b995;transition:width .2s}.contact{border-radius:15px;padding:13px;background:#f0f6ec;margin:10px 0}.contact h4{font-size:13px;margin:0 0 5px}.contact p{font-size:11px;color:var(--muted);margin:0 0 7px}.contact a{font-size:12px;display:inline-block;margin:2px 0}.alias-wrap{border-radius:18px;background:linear-gradient(135deg,#f8e5eb,#fff0c9);padding:14px;text-align:center;margin-top:13px}.alias-wrap p{font-size:11px;margin:0 0 8px;color:#766a7b}.alias{display:block;font-size:21px;letter-spacing:.4px;font-weight:1000;color:#68596d;background:#ffffffc9;border:1px dashed #d9b8c7;border-radius:13px;padding:9px}.footer{margin-top:22px;padding:18px 10px 5px;text-align:center}.footer-art{font-size:26px;letter-spacing:8px;margin-bottom:7px}.footer p{font-size:11px;line-height:1.7;color:#8a7e90;margin:3px 0}.footer strong{color:#66876c}.footer .love{font-size:12px;color:#8d7284;font-weight:900}.fine{font-size:9px!important;color:#a99da8!important;margin-top:9px!important}.hidden{display:none!important}
-@media(max-width:760px){.doors{grid-template-columns:1fr}.door summary{min-height:0;display:grid;grid-template-columns:76px 1fr;grid-template-rows:auto auto;column-gap:13px;padding:14px}.door-top{grid-column:1 / -1}.door-art{grid-column:1;grid-row:2;margin:0;height:72px;font-size:48px}.door-copy{grid-column:2;grid-row:2;align-self:center}.enter{padding-top:8px}.hero{min-height:280px}.landscape{width:48%;min-width:200px;opacity:.72}.hero-copy{max-width:420px}.hero p{max-width:340px}.hero h1{max-width:410px}.section-heading{align-items:start;flex-direction:column;gap:3px}}
-@media(max-width:480px){.wrap{width:min(100% - 18px,930px);padding-top:9px}.brand-mark{width:40px;height:40px}.free{font-size:9px;padding:6px 8px}.hero{border-radius:24px;padding:21px 17px;min-height:300px}.hero h1{font-size:39px;letter-spacing:-1.8px;max-width:340px}.hero p{font-size:12px;max-width:290px}.landscape{width:64%;height:58%;min-width:0;opacity:.62}.hero-copy{z-index:2}.hero .hello{font-size:10px;margin-top:12px}.door summary{grid-template-columns:66px 1fr;padding:12px}.door-art{font-size:43px}.door-title{font-size:17px}.inside{padding:13px}.two{gap:7px}.actions .btn{flex-basis:100%}.section-heading h2{font-size:19px}}
-
-/* Accesibilidad y uso con una mano: texto legible, controles grandes y dibujos visibles */
-body{font-size:17px;line-height:1.6}
-.brand{font-size:16px}.brand small{font-size:11px;letter-spacing:1.3px}
-.free{font-size:12px;padding:8px 12px}
-.kicker{font-size:12px;letter-spacing:1.2px}
-.hero p{font-size:16px;line-height:1.65}
-.hero .hello{font-size:14px;padding:10px 15px}
-.tiny-note{font-size:12px}
-.section-heading h2{font-size:24px}
-.section-heading p{font-size:14px}
-.door summary{min-height:230px;padding:18px}
-.door-num{font-size:12px}
-.door-art{font-size:62px;height:94px}
-.door-title{font-size:22px}
-.door-desc{font-size:14px;line-height:1.5}
-.enter{font-size:14px}
-.enter span:last-child{font-size:24px}
-.inside{padding:22px}
-.inside h3{font-size:23px;line-height:1.3}
-.inside>p{font-size:15px;line-height:1.6}
-.field label{font-size:15px}
-.field input,.field select,.field textarea{font-size:16px;padding:14px;min-height:52px;border-radius:15px}
-.field textarea{min-height:110px}
-.btn{font-size:15px;min-height:52px;padding:13px 17px}
-.rlabel{font-size:14px}
-.price{font-size:42px}
-.small{font-size:12px;line-height:1.5}
-.metric{padding:12px}
-.metric span{font-size:12px;line-height:1.4}
-.metric strong{font-size:17px}
-.tip{font-size:15px;line-height:1.6;padding:15px}
-.feedback{font-size:13px;line-height:1.5}
-.tip-card{font-size:16px;line-height:1.65}
-.tip-label{font-size:12px}
-.check{font-size:15px;line-height:1.5;gap:12px}
-.check input{width:22px;height:22px;margin-top:1px}
-.contact{padding:16px}
-.contact h4{font-size:16px}
-.contact p,.contact a{font-size:14px;line-height:1.6}
-.alias-wrap p{font-size:14px;line-height:1.6}
-.alias{font-size:24px;padding:12px}
-.footer .love{font-size:14px}
-.footer p{font-size:13px;line-height:1.65}
-.fine{font-size:11px!important}
-@media(max-width:760px){
- .wrap{width:min(100% - 24px,620px);padding-top:12px}
- .hero{min-height:350px;padding:23px 20px}
- .hero h1{font-size:clamp(39px,9vw,49px);line-height:1.02;letter-spacing:-1.6px;max-width:95%}
- .hero p{font-size:16px;max-width:95%}
- .landscape{width:58%;height:49%;min-width:0;opacity:.52}
- .hero-copy{max-width:100%}
- .doors{gap:14px}
- .door summary{grid-template-columns:88px minmax(0,1fr);column-gap:14px;padding:16px;min-height:0;border-radius:20px}
- .door-art{height:88px;font-size:58px}
- .door-title{font-size:23px}
- .door-desc{font-size:15px}
- .enter{font-size:14px}
- .inside{padding:18px}
- .section-heading h2{font-size:25px}
- .section-heading p{font-size:15px}
-}
-@media(max-width:420px){
- .wrap{width:calc(100% - 20px)}
- .top{gap:8px}
- .brand{gap:7px;font-size:14px}
- .brand small{font-size:10px;letter-spacing:1px}
- .brand-mark{width:42px;height:42px;font-size:25px}
- .free{font-size:11px;padding:7px 9px;white-space:normal;text-align:center;max-width:125px}
- .hero{min-height:370px;border-radius:23px;padding:20px 16px}
- .hero h1{font-size:39px;max-width:100%}
- .hero p{font-size:15px;max-width:100%}
- .hero .hello{font-size:13px;max-width:100%;white-space:normal}
- .landscape{width:70%;height:42%;opacity:.43}
- .door summary{grid-template-columns:70px minmax(0,1fr);gap:10px;padding:14px}
- .door-art{font-size:47px;height:76px}
- .door-title{font-size:21px}
- .door-desc{font-size:14px}
- .enter{font-size:13px}
- .inside{padding:15px}
- .inside h3{font-size:21px}
- .two{grid-template-columns:1fr;gap:0}
- .actions{gap:10px}
- .actions .btn{flex-basis:100%;width:100%}
- .price{font-size:39px}
- .metric strong{font-size:16px}
- .alias{font-size:22px}
-}
-@media(prefers-reduced-motion:reduce){.door:hover{transform:none}}
-
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+:root{--ink:#55485b;--muted:#7d7180;--cream:#fffaf2;--pink:#f8e0e7;--peach:#ffe8d5;--yellow:#fff0bb;--green:#e2efdf;--purple:#eee7f8;--leaf:#648268;--line:#eee1dc}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+button,input,textarea{font:inherit}
+button,summary{cursor:pointer}
+a{color:var(--leaf);font-weight:750}
+.wrap{width:min(100% - 24px,720px);margin:auto;padding:14px 0 28px}
+header{display:flex;align-items:center;gap:10px;margin:2px 0 15px}
+.logo{width:48px;height:48px;border-radius:17px;background:var(--yellow);display:grid;place-items:center;font-size:29px}
+.brand{font-weight:900;font-size:17px;line-height:1.15}
+.brand small{display:block;font-size:11px;font-weight:700;letter-spacing:1px;color:var(--muted);margin-top:5px}
+.hero{background:linear-gradient(145deg,#f9e2e8,#fff0d6 64%,#e6f0df);border:1px solid #f0dfd9;border-radius:28px;padding:23px 20px 20px;overflow:hidden;position:relative}
+.eyebrow{font-size:12px;font-weight:850;letter-spacing:.8px;text-transform:uppercase;color:#866f85}
+h1{font-size:clamp(35px,8vw,53px);line-height:1.02;letter-spacing:-1.8px;margin:10px 0 11px;max-width:540px}
+h1 span{color:#648268}
+.intro{font-size:16px;line-height:1.6;max-width:550px;margin:0}
+.doodle{display:flex;align-items:center;justify-content:center;gap:16px;font-size:34px;margin:10px 0 0;min-height:52px}
+.donate{background:#fffdf8;border:2px solid #eadbc8;border-radius:23px;padding:17px;margin-top:14px;box-shadow:0 8px 25px #715b6a0d}
+.donate-top{display:flex;align-items:center;gap:9px;font-weight:900;font-size:18px}
+.heart{font-size:28px}
+.donate p{font-size:14px;margin:5px 0 12px;color:#766a7b}
+.alias{display:block;text-align:center;font-size:clamp(24px,6vw,32px);font-weight:950;letter-spacing:.4px;background:#fff0d8;border:1px dashed #d8bda4;border-radius:15px;padding:12px 8px;overflow-wrap:anywhere;color:#68566b}
+.copy{display:block;width:100%;border:0;border-radius:15px;background:#6c896e;color:white;font-weight:850;min-height:54px;padding:12px;margin-top:10px;box-shadow:0 3px 0 #527356}
+.note{text-align:center;font-size:12px;color:#847888;margin:9px 0 0}
+.section{margin:24px 2px 12px}
+.section h2{font-size:24px;line-height:1.2;margin:0}
+.section p{font-size:14px;color:var(--muted);margin:5px 0 0}
+.doors{display:grid;gap:12px}
+details{background:#fffdfb;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 7px 22px #715b6a0b}
+summary{list-style:none;display:grid;grid-template-columns:70px minmax(0,1fr) 24px;gap:12px;align-items:center;padding:15px}
+summary::-webkit-details-marker{display:none}
+.art{height:66px;border-radius:18px;display:grid;place-items:center;font-size:37px}
+.door:nth-child(1) .art{background:var(--yellow)}
+.door:nth-child(2) .art{background:var(--pink)}
+.door:nth-child(3) .art{background:var(--green)}
+.door-title{font-size:20px;font-weight:900;line-height:1.2}
+.desc{font-size:14px;color:var(--muted);line-height:1.45;margin-top:5px}
+.arrow{font-size:24px;color:var(--leaf);text-align:center}
+.inside{padding:17px;border-top:1px solid var(--line);background:#fffdfb}
+.inside h3{font-size:21px;line-height:1.25;margin:0 0 6px}
+.inside p{font-size:14px;color:var(--muted);margin:0 0 12px}
+.field{margin:12px 0}
+label{display:block;font-size:15px;font-weight:800;margin-bottom:6px}
+input,textarea{width:100%;min-width:0;border:1px solid #dfd5df;background:white;border-radius:14px;padding:13px 14px;min-height:52px;font-size:16px;color:var(--ink)}
+textarea{min-height:95px;resize:vertical}
+.action{width:100%;min-height:52px;padding:12px 15px;border:0;border-radius:15px;background:#6c896e;color:#fff;font-size:16px;font-weight:850;margin-top:8px}
+.action.secondary{background:var(--purple);color:#665477}
+.output{border-radius:15px;background:#f4f7ef;padding:14px;margin:12px 0;white-space:pre-wrap;overflow-wrap:anywhere;font-size:15px}
+.tiny{font-size:12px!important;margin-top:10px!important}
+footer{text-align:center;padding:23px 8px 4px;color:#8b7e8b;font-size:13px}
+footer .flowers{font-size:27px;letter-spacing:7px;margin-bottom:5px}
+@media(min-width:620px){.doors{grid-template-columns:1fr}.hero{padding:30px}.donate{padding:20px}.doodle{font-size:38px}}
+@media(max-width:380px){.wrap{width:calc(100% - 18px)}.hero{padding:19px 16px}.donate{padding:14px}.intro{font-size:15px}summary{grid-template-columns:58px minmax(0,1fr) 20px;gap:10px;padding:12px}.art{height:60px;font-size:32px}.door-title{font-size:18px}.desc{font-size:13px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 </style>
 </head>
-<body><div class="wrap">
-<header class="top"><div class="brand"><div class="brand-mark" aria-hidden="true">🌷</div><div>MI RINCONCITO<small>EMPRENDER A TU MANERA</small></div></div><span class="free">♡ Gratis y hecho con amor</span></header>
-<section class="hero" aria-labelledby="heroTitle">
-<div class="hero-copy"><div class="kicker">Un rinconcito para vos · San Patricio del Chañar</div><h1 id="heroTitle">Tu esfuerzo merece un lugar <em>lindo.</em></h1><p>Hola, emprendedor y emprendedora del Chañar. 🌼 Acá no hace falta tener todo resuelto. Vení a ordenar tus ideas, mostrar lo que hacés y dar un pasito más. Este rinconcito es tuyo.</p><div class="hello">☕ Ponete cómodo/a. Vamos de a poquito.</div></div>
-<div class="landscape" aria-hidden="true"><svg viewBox="0 0 380 330" xmlns="http://www.w3.org/2000/svg" fill="none"><circle cx="274" cy="76" r="34" fill="#FFF5BE"/><path d="M110 201 208 82l98 119" fill="#D5E5D1"/><path d="m194 201 83-91 83 91" fill="#C1D9C2"/><path d="m35 232 85-91 82 91" fill="#E9D6E8"/><path d="M0 223q68-34 128-7t128 2 124-4v116H0Z" fill="#BBD7B4"/><path d="M0 257q82-24 155 4t225-4v73H0Z" fill="#D6E8C9"/><path d="M215 206h94v99h-94z" fill="#F7CBAE"/><path d="M202 211 262 160l61 51" fill="#D99792"/><path d="M248 305v-50a15 15 0 0 1 30 0v50" fill="#A77979"/><rect x="227" y="229" width="22" height="23" rx="3" fill="#FFF1C9"/><path d="M0 298q42-25 79 0t80-1" stroke="#7DA77C" stroke-width="4" stroke-linecap="round"/><g><path d="M77 288v-42" stroke="#8D775E" stroke-width="5" stroke-linecap="round"/><circle cx="77" cy="234" r="22" fill="#88AD79"/><circle cx="62" cy="247" r="16" fill="#9ABD89"/><circle cx="92" cy="247" r="16" fill="#9ABD89"/><circle cx="70" cy="237" r="7" fill="#F5B46C"/><circle cx="86" cy="248" r="7" fill="#F5B46C"/></g><g><path d="M337 302v-39" stroke="#8D775E" stroke-width="5" stroke-linecap="round"/><circle cx="337" cy="251" r="21" fill="#8DB37D"/><circle cx="322" cy="263" r="15" fill="#A6C991"/><circle cx="350" cy="264" r="15" fill="#A6C991"/><circle cx="330" cy="250" r="6" fill="#F5B46C"/><circle cx="344" cy="263" r="6" fill="#F5B46C"/></g><path d="M135 300q16-16 32 0m-16-13v26" stroke="#6F9D75" stroke-width="3" stroke-linecap="round"/><path d="M173 307q13-13 26 0m-13-12v22" stroke="#6F9D75" stroke-width="3" stroke-linecap="round"/><g transform="translate(20 170)"><path d="M14 34q-13-12-3-23 13 0 15 14" fill="#9FBE92"/><path d="M22 35q-2-17 13-19 7 12-5 22" fill="#7DA77C"/><path d="M8 35h27l-4 20H12Z" fill="#D8A27C"/><path d="M10 39h24" stroke="#B98265" stroke-width="2"/><circle cx="17" cy="39" r="3" fill="#F1B66E"/><circle cx="26" cy="43" r="3" fill="#F1B66E"/></g><path d="M118 178q8-8 16 0t16 0" stroke="#FFF9F0" stroke-width="3" stroke-linecap="round"/><path d="M172 135q6-6 12 0t12 0" stroke="#FFF9F0" stroke-width="3" stroke-linecap="round"/></svg></div>
+<body>
+<div class="wrap">
+<header><div class="logo" aria-hidden="true">🌷</div><div class="brand">MI RINCONCITO<small>EMPRENDER A TU MANERA</small></div></header>
+<main>
+<section class="hero">
+<div class="eyebrow">Un rinconcito del Chañar para vos</div>
+<h1>Tu idea merece <span>crecer.</span></h1>
+<p class="intro">Hola, emprendedor y emprendedora. 🌼 Este espacio es para vos: para dar un pasito, mostrar lo que hacés y sentirte acompañado. Sin apuro y sin complicaciones.</p>
+<div class="doodle" aria-label="Flores, naranja y casita" role="img"><span>🌼</span><span>🍊</span><span>🏡</span><span>🌱</span></div>
 </section>
-<div class="tiny-note">🌱 Hecho con cariño en el Chañar, para las ideas que crecen acá.</div>
-<div class="section-heading"><div><h2>¿Qué te vendría bien hoy?</h2><p>Elegí una puertita. Todo lo demás puede esperar. 💛</p></div></div>
-<main class="doors">
-<details class="door"><summary><div class="door-top"><span class="door-num">PUERTA 01</span><span aria-hidden="true">🌞</span></div><div class="door-art" aria-hidden="true">🍊🧺</div><div class="door-copy"><div class="door-title">Pongámosle precio</div><div class="door-desc">Tu trabajo vale. Hagamos las cuentas con calma y sin olvidarnos de los gastos.</div><div class="enter"><span>Entrar a la calculadora</span><span>↗</span></div></div></summary>
-<div class="inside"><h3>Vamos a cuidar el valor de tu trabajo 🌷</h3><p>Podés usar números aproximados. La cuenta se hace acá, en tu dispositivo.</p>
-<div class="field"><label for="product">¿Qué ofrecés?</label><select id="product"><option value="🍊">Frutas o verduras</option><option value="🥖">Pan o comida</option><option value="🧶">Artesanías</option><option value="🧰">Un servicio</option><option value="🌻">Otra cosa</option></select></div><div class="field"><label for="productName">Nombre de tu producto o servicio</label><input id="productName" maxlength="70" value="Bolsita de naranjas" placeholder="Ej.: pan casero, uñas, tejidos"></div>
-<div class="two"><div class="field"><label for="cost">Materiales o compra ($)</label><input id="cost" inputmode="decimal" value="800" placeholder="0"></div><div class="field"><label for="pack">Envase y entrega ($)</label><input id="pack" inputmode="decimal" value="100" placeholder="0"></div><div class="field"><label for="labor">Tu trabajo ($)</label><input id="labor" inputmode="decimal" value="200" placeholder="0"></div><div class="field"><label for="fixed">Otros gastos ($)</label><input id="fixed" inputmode="decimal" value="100" placeholder="0"></div></div><div class="two"><div class="field"><label for="margin">Ganancia deseada (%)</label><input id="margin" type="number" min="0" max="90" value="30"></div><div class="field"><label for="fees">Comisión de cobro (%)</label><input id="fees" type="number" min="0" max="30" value="0"></div></div>
-<div class="result" aria-live="polite"><div class="rlabel">🌼 Precio orientativo para vender</div><div class="price" id="priceOut">$1.714</div><div class="small" id="nameOut">Bolsita de naranjas 🍊</div><div class="metrics"><div class="metric"><span>Gastos estimados</span><strong id="costOut">$1.200</strong></div><div class="metric"><span>Ganancia estimada</span><strong id="profitOut">$514</strong></div><div class="metric"><span>Precio para no perder</span><strong id="breakOut">$1.200</strong></div><div class="metric"><span>Ganancia sobre la venta</span><strong id="marginOut">30%</strong></div></div></div><div class="tip">💛 Un recordatorio: tu precio también tiene que cuidar tu tiempo, tu esfuerzo y lo que cuesta volver a producir.</div><div class="feedback" id="calcFeedback" role="status" aria-live="polite"></div><div class="actions"><button class="btn" id="shareCalc" type="button">📲 Compartir mi cuenta</button><button class="btn alt" id="resetCalc" type="button">↺ Volver a empezar</button></div></div></details>
-<details class="door"><summary><div class="door-top"><span class="door-num">PUERTA 02</span><span aria-hidden="true">💌</span></div><div class="door-art" aria-hidden="true">🌷📦</div><div class="door-copy"><div class="door-title">Contale al Chañar</div><div class="door-desc">Mostrá eso que hacés con tus manos, tu tiempo y tus ganas. Armemos un mensaje lindo.</div><div class="enter"><span>Preparar mi mensajito</span><span>↗</span></div></div></summary>
-<div class="inside"><h3>Tu próximo cliente puede estar cerca 💌</h3><p>Contá qué ofrecés con tus propias palabras. Te ayudamos a ordenar el mensaje.</p><div class="field"><label for="sellName">¿Qué ofrecés?</label><input id="sellName" maxlength="90" placeholder="Ej.: pan casero, plantas, tejidos, peluquería"></div><div class="field"><label for="sellPrice">¿Cuánto cuesta? (opcional)</label><input id="sellPrice" maxlength="30" placeholder="Ej.: $3.000"></div><div class="field"><label for="sellDetails">¿Qué querés que sepan?</label><textarea id="sellDetails" maxlength="200" placeholder="Ej.: lo hago por encargo, entrego en el barrio, trabajo con turnos..."></textarea></div><div class="result"><div class="rlabel">✨ Así puede quedar tu mensaje</div><div id="sellOutput" style="white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;margin-top:7px">Completá qué ofrecés y lo preparamos juntos 🌱</div></div><div class="actions"><button class="btn" id="makeSellText" type="button">🌷 Preparar mensaje</button><button class="btn alt" id="shareSellText" type="button">📲 Abrir WhatsApp</button><button class="btn peach" id="copySellText" type="button">Copiar texto</button></div><div class="feedback" id="sellFeedback" role="status" aria-live="polite"></div><div class="tip">🌼 No necesitás palabras difíciles ni una foto perfecta. Lo que hacés merece ser contado con claridad y cariño.</div></div></details>
-<details class="door"><summary><div class="door-top"><span class="door-num">PUERTA 03</span><span aria-hidden="true">🫶</span></div><div class="door-art" aria-hidden="true">🏡🌱</div><div class="door-copy"><div class="door-title">Un abrazo emprendedor</div><div class="door-desc">Un consejo para hoy, pasos chiquitos y contactos que pueden orientarte.</div><div class="enter"><span>Entrar a mi rinconcito</span><span>↗</span></div></div></summary>
-<div class="inside"><h3>Para los días de muchas ideas… y los de cansancio también 💚</h3><p>Emprender lleva tiempo. No tenés que resolver todo en una sola tarde.</p><span class="tip-label">UN CONSEJITO PARA VOS</span><div id="tipText" class="tip-card" aria-live="polite">Anotá todos tus gastos, hasta los más chiquitos. Vender mucho no siempre significa ganar: conocer tus costos es una forma de cuidarte.</div><div class="actions"><button class="btn alt" id="nextTip" type="button">🌻 Regalame otro consejo</button></div>
-<h3 style="margin-top:22px">Mis pasitos de hoy 🐾</h3><p>Marcá lo que ya pudiste hacer. Cada casillero es un avance, no una obligación.</p><div class="checks" id="todayChecklist"><label class="check"><input type="checkbox"> Tengo claro qué quiero ofrecer.</label><label class="check"><input type="checkbox"> Revisé los gastos y el precio.</label><label class="check"><input type="checkbox"> Preparé una foto o descripción sencilla.</label><label class="check"><input type="checkbox"> Tengo un mensajito para compartir.</label><label class="check"><input type="checkbox"> Sé cómo voy a entregar o atender.</label></div><div class="bar"><span id="todayProgress"></span></div><div class="small" id="todayProgressLabel" aria-live="polite">0 de 5 pasitos listos. Vamos a tu ritmo. 💚</div><div class="actions"><button class="btn peach" id="resetToday" type="button">↺ Empezar mi lista de nuevo</button></div>
-<h3 style="margin-top:24px">Una mano cerca también ayuda 📍</h3><p>Si estás en San Patricio del Chañar, podés consultar por orientación para tu emprendimiento. Preguntá qué programas, horarios y requisitos están vigentes.</p>
-<div class="contact"><h4>🏛️ Secretaría de Desarrollo Económico</h4><p>Para consultar sobre orientación, actividades y programas locales.</p><a href="tel:+542995763634">📞 299 576-3634</a><br><a href="mailto:desarrollo.economico@sanpatricio.gob.ar">✉️ desarrollo.economico@sanpatricio.gob.ar</a><br><a href="https://sanpatricio.gob.ar/desarrollo-economico" target="_blank" rel="noopener noreferrer">Información municipal ↗</a></div>
-<div class="contact"><h4>🤝 Centro PyME-ADENEU · Neuquén</h4><p>Otra puerta para consultar por asesoramiento a pequeños negocios.</p><a href="tel:+542994485553">📞 (0299) 448-5553</a><br><a href="https://www.adeneu.com.ar/" target="_blank" rel="noopener noreferrer">Sitio institucional ↗</a></div>
-<div class="alias-wrap"><div style="font-size:24px;margin-bottom:5px" aria-hidden="true">💚🌷💚</div><p>Si este rinconcito te acompaña y te nace ayudar a que siga creciendo, podés colaborar voluntariamente. Usarlo es gratis.</p><span class="alias">ocarina.guitarra</span><p style="margin-top:8px;margin-bottom:0">Alias de colaboración de Elías Martínez, creador del proyecto.</p><div class="actions"><button class="btn" id="copyAlias" type="button">♡ Copiar alias</button></div><div class="feedback" id="supportFeedback" role="status" aria-live="polite"></div></div>
-</div></details>
+<section class="donate" aria-labelledby="donateTitle">
+<div class="donate-top" id="donateTitle"><span class="heart" aria-hidden="true">💚</span><span>¿Querés ayudar a que siga creciendo?</span></div>
+<p>Este rinconcito es gratuito. Si te nace colaborar, acá tenés el alias. Es totalmente voluntario. Gracias por estar. 🌷</p>
+<span class="alias" id="donationAlias">ocarina.guitarra</span>
+<button class="copy" id="copyAlias" type="button">♡ Copiar alias para colaborar</button>
+<div class="note" id="aliasFeedback" role="status" aria-live="polite">Un pequeño gesto ayuda a cuidar este espacio.</div>
+</section>
+<div class="section"><h2>¿Qué necesitás hoy? 🌻</h2><p>Elegí una puerta. Se abre acá mismo.</p></div>
+<section class="doors" aria-label="Herramientas para emprender">
+<details class="door">
+<summary><div class="art" aria-hidden="true">🍊</div><div><div class="door-title">Pongámosle precio</div><div class="desc">Una cuenta sencilla para pensar cuánto cobrar.</div></div><div class="arrow" aria-hidden="true">＋</div></summary>
+<div class="inside"><h3>¿Cuánto te cuesta hacerlo?</h3><p>Completá los gastos principales. Te mostramos una cuenta orientativa.</p>
+<div class="field"><label for="itemName">¿Qué vendés o qué servicio hacés?</label><input id="itemName" maxlength="70" placeholder="Ej.: pan casero, plantas, uñas"></div>
+<div class="field"><label for="cost">Materiales o compra ($)</label><input id="cost" inputmode="decimal" type="number" min="0" placeholder="Ej.: 1500"></div>
+<div class="field"><label for="other">Otros gastos ($)</label><input id="other" inputmode="decimal" type="number" min="0" placeholder="Ej.: 300"></div>
+<div class="field"><label for="work">Tu trabajo ($)</label><input id="work" inputmode="decimal" type="number" min="0" placeholder="Ej.: 1000"></div>
+<button class="action" id="calculate" type="button">🌼 Calcular mi precio</button>
+<div class="output" id="priceResult" aria-live="polite">Tu resultado va a aparecer acá. 💛</div>
+<p class="tiny">Es una orientación simple: acordate de revisar tus precios y los gastos que puedan faltar.</p>
+</div>
+</details>
+<details class="door">
+<summary><div class="art" aria-hidden="true">💌</div><div><div class="door-title">Contale al Chañar</div><div class="desc">Armá un mensajito lindo para contar qué ofrecés.</div></div><div class="arrow" aria-hidden="true">＋</div></summary>
+<div class="inside"><h3>Contanos qué hacés 🌷</h3><p>Con tus palabras alcanza. Nosotros te ayudamos a ordenar el mensaje.</p>
+<div class="field"><label for="sellName">¿Qué ofrecés?</label><input id="sellName" maxlength="90" placeholder="Ej.: hago tortas por encargo"></div>
+<div class="field"><label for="sellPrice">Precio (si querés)</label><input id="sellPrice" maxlength="35" placeholder="Ej.: desde $4.000"></div>
+<div class="field"><label for="sellDetails">Un detalle para contar</label><textarea id="sellDetails" maxlength="180" placeholder="Ej.: tomo pedidos hasta el viernes"></textarea></div>
+<button class="action" id="makeMessage" type="button">✨ Preparar mi mensaje</button>
+<div class="output" id="messageOutput" aria-live="polite">Tu mensajito aparecerá acá.</div>
+<button class="action" id="shareMessage" type="button">📲 Compartir por WhatsApp</button>
+<button class="action secondary" id="copyMessage" type="button">Copiar mensaje</button>
+<div class="note" id="messageFeedback" role="status" aria-live="polite"></div>
+</div>
+</details>
+<details class="door">
+<summary><div class="art" aria-hidden="true">🏡</div><div><div class="door-title">Un abrazo emprendedor</div><div class="desc">Un consejo chiquito para seguir a tu ritmo.</div></div><div class="arrow" aria-hidden="true">＋</div></summary>
+<div class="inside"><h3>Un pasito a la vez 💚</h3><div class="output" id="tip">No hace falta resolver todo hoy. Elegí una tarea pequeña y posible; terminarla también es avanzar.</div><button class="action secondary" id="anotherTip" type="button">🌱 Otro consejito</button><p style="margin-top:16px">¿Necesitás orientación para tu emprendimiento? Podés consultar a las instituciones locales para confirmar qué ayuda y programas están disponibles.</p><p><strong>Secretaría de Desarrollo Económico</strong><br><a href="https://sanpatricio.gob.ar/desarrollo-economico" target="_blank" rel="noopener noreferrer">Consultar información municipal ↗</a></p><p><strong>Centro PyME-ADENEU</strong><br><a href="https://www.adeneu.com.ar/" target="_blank" rel="noopener noreferrer">Visitar el sitio institucional ↗</a></p></div>
+</details>
+</section>
 </main>
-<footer class="footer"><div class="footer-art" aria-hidden="true">🌷 🍊 🧺 🌱 🏡</div><p class="love">Un lugarcito amable para quienes se animan a emprender.</p><p><strong>Mi Rinconcito Emprendedor</strong> es un proyecto de <strong>Ocarina Producciones</strong>, creado por Elías Martínez.</p><p>Hecho con amor en San Patricio del Chañar, para las personas que hacen crecer nuestra comunidad.</p><p class="fine">Las cuentas se calculan en tu dispositivo. Los precios son orientativos. Los teléfonos, horarios y programas pueden cambiar; confirmá los datos con cada institución.</p></footer>
+<footer><div class="flowers" aria-hidden="true">🌷 🍊 🌼</div><strong>Hecho con cariño en San Patricio del Chañar.</strong><br>Un proyecto de Ocarina Producciones · Elías Martínez</footer>
 </div>
 <script>
-(()=>{const doors=Array.from(document.querySelectorAll('details.door'));doors.forEach(door=>door.addEventListener('toggle',()=>{if(door.open)doors.forEach(other=>{if(other!==door)other.open=false})}));const $=id=>document.getElementById(id),money=n=>new Intl.NumberFormat("es-AR",{style:"currency",currency:"ARS",maximumFractionDigits:0}).format(Number.isFinite(n)?n:0);
-function num(id){let s=$(id).value.trim().replace(/\\s|\\$/g,"");if(s.includes(",")&&!s.includes("."))s=s.replace(",",".");else s=s.replace(/\\.(?=\\d{3}(?:\\D|$))/g,"");let n=s===""?0:Number(s);return Number.isFinite(n)&&n>=0?n:NaN}
-function calc(){let vals=["cost","pack","labor","fixed"].map(num),m=Number($("margin").value),f=Number($("fees").value);if(vals.some(n=>!Number.isFinite(n))||!Number.isFinite(m)||!Number.isFinite(f)||m<0||m>90||f<0||f>30){$("calcFeedback").textContent="Revisá los números. La ganancia debe estar entre 0 y 90% y la comisión entre 0 y 30%.";return null}let base=vals.reduce((a,b)=>a+b,0),d=1-m/100-f/100;if(d<=0){$("calcFeedback").textContent="Bajá la ganancia o la comisión para poder calcular.";return null}let price=base/d,profit=price*(1-f/100)-base,br=base/(1-f/100),name=$("productName").value.trim()||"Tu producto",emoji=$("product").value;$("priceOut").textContent=money(price);$("costOut").textContent=money(base);$("profitOut").textContent=money(profit);$("breakOut").textContent=money(br);$("marginOut").textContent=(price?profit/price*100:0).toFixed(0)+"%";$("nameOut").textContent=name+" "+emoji;$("calcFeedback").textContent="Cuenta orientativa. Tu experiencia y tus clientes también importan.";return{name,emoji,base,price,profit}}
-["cost","pack","labor","fixed","margin","fees","productName","product"].forEach(id=>$(id).addEventListener("input",calc));
-$("shareCalc").addEventListener("click",()=>{let c=calc();if(c)window.open("https://wa.me/?text="+encodeURIComponent("🌷 Mi cuenta en Mi Rinconcito Emprendedor\\nProducto: "+c.name+" "+c.emoji+"\\nGastos estimados: "+money(c.base)+"\\nPrecio orientativo: "+money(c.price)+"\\nGanancia estimada: "+money(c.profit)+"\\nUna herramienta gratuita de Ocarina Producciones."),"_blank","noopener,noreferrer")});
-$("resetCalc").addEventListener("click",()=>{Object.entries({product:"🍊",productName:"Bolsita de naranjas",cost:"800",pack:"100",labor:"200",fixed:"100",margin:"30",fees:"0"}).forEach(([k,v])=>$(k).value=v);calc();$("calcFeedback").textContent="Listo, volvemos a empezar. Una cuenta a la vez. 🌱"});
-const tips=["Anotá todos tus gastos, hasta los más chiquitos. Vender mucho no siempre significa ganar: conocer tus costos es cuidarte.","Mostrá lo que hacés con luz natural y un fondo ordenado. Una foto sincera puede ser más que suficiente.","Contá qué ofrecés, cuánto cuesta y cómo se encarga. La claridad le hace fácil la decisión a tu cliente.","Probá con una cantidad pequeña antes de comprar mucho stock. Escuchar también es emprender.","Si podés, separá la plata del negocio de la plata de la casa, aunque sea en dos sobres.","La buena atención deja huella: respondé con respeto y no tengas miedo de decir cuándo podés entregar.","Pedí permiso antes de publicar la foto o la opinión de un cliente. La confianza vale mucho.","Revisá tus precios cada tanto. Los costos cambian, y tu trabajo merece seguir siendo sostenible.","No te compares con el negocio de otra persona. Cada emprendimiento tiene su ritmo, su historia y su comienzo."];let ti=0;$("nextTip").addEventListener("click",()=>{$("tipText").textContent=tips[ti=(ti+1)%tips.length]});
-function makeText(){let n=$("sellName").value.trim(),p=$("sellPrice").value.trim(),d=$("sellDetails").value.trim();if(!n){$("sellFeedback").textContent="Primero contanos qué ofrecés y armamos el mensaje. 🌱";$("sellName").focus();return""}let t="🌷 ¡Hola, Chañar! Quiero compartirte lo que hago: "+n+".";if(p)t+="\\n💚 Precio: "+p+".";if(d)t+="\\n✨ "+d;t+="\\n📩 Si te interesa, escribime por acá para consultar o encargar. ¡Gracias por apoyar a los emprendimientos locales!";$("sellOutput").textContent=t;$("sellFeedback").textContent="¡Qué lindo! Tu mensaje ya está listo para compartir.";return t}
-$("makeSellText").addEventListener("click",makeText);$("shareSellText").addEventListener("click",()=>{let t=makeText();if(t)window.open("https://wa.me/?text="+encodeURIComponent(t),"_blank","noopener,noreferrer")});
-async function copy(t,el,msg){try{await navigator.clipboard.writeText(t);el.textContent=msg}catch(e){let x=document.createElement("textarea");x.value=t;document.body.appendChild(x);x.select();try{document.execCommand("copy");el.textContent=msg}catch(_){el.textContent="No se pudo copiar automáticamente. Seleccioná y copiá este texto: "+t}x.remove()}}
-$("copySellText").addEventListener("click",()=>{let t=makeText();if(t)copy(t,$("sellFeedback"),"¡Copiado! Ahora podés pegarlo donde quieras. 🌷")});$("copyAlias").addEventListener("click",()=>copy("ocarina.guitarra",$("supportFeedback"),"¡Alias copiado! Gracias por acompañar este proyecto. 💚"));
-const checks=Array.from(document.querySelectorAll("#todayChecklist input"));function updateChecks(){let n=checks.filter(x=>x.checked).length;$("todayProgress").style.width=(n/checks.length*100)+"%";$("todayProgressLabel").textContent=n===checks.length?"¡Cinco pasitos listos! Date un mimo y elegí qué sigue. 🌷":n+" de "+checks.length+" pasitos listos. "+(n?"Vas avanzando, de a poquito. 💚":"No hay apuro. Empezá por donde puedas.")}checks.forEach(x=>x.addEventListener("change",updateChecks));$("resetToday").addEventListener("click",()=>{checks.forEach(x=>x.checked=false);updateChecks()});calc();
+(()=> {
+const $=id=>document.getElementById(id);
+const doors=Array.from(document.querySelectorAll('details.door'));
+doors.forEach(d=>d.addEventListener('toggle',()=>{if(d.open)doors.forEach(o=>{if(o!==d)o.open=false})}));
+async function copyText(text,feedback,success){try{await navigator.clipboard.writeText(text);feedback.textContent=success}catch(e){const t=document.createElement('textarea');t.value=text;document.body.appendChild(t);t.select();try{document.execCommand('copy');feedback.textContent=success}catch(_){feedback.textContent='No se pudo copiar automáticamente. Mantené apretado el texto para copiarlo.'}t.remove()}}
+$('copyAlias').addEventListener('click',()=>copyText('ocarina.guitarra',$('aliasFeedback'),'¡Alias copiado! Gracias por acompañar este rinconcito. 💚'));
+$('calculate').addEventListener('click',()=>{const values=['cost','other','work'].map(id=>Number($(id).value||0));if(values.some(v=>!Number.isFinite(v)||v<0)){$('priceResult').textContent='Revisá los números e intentá de nuevo.';return}const total=values.reduce((a,b)=>a+b,0);const name=$('itemName').value.trim();const fmt=n=>new Intl.NumberFormat('es-AR',{style:'currency',currency:'ARS',maximumFractionDigits:0}).format(n);$('priceResult').textContent=(name?'🌷 '+name+'\n':'')+'Gastos y trabajo que anotaste: '+fmt(total)+'\nEste es tu punto de partida. Sumá cualquier otro gasto antes de decidir cuánto cobrar.'});
+const messages=['No hace falta tener todo perfecto para empezar. 🌱','Anotá tus gastos: conocerlos te ayuda a cuidar tu trabajo.','Una foto con luz natural y un mensaje claro pueden alcanzar.','Escuchá qué necesita tu cliente; cada conversación enseña algo.','No te compares: cada emprendimiento tiene su propio ritmo.'];let tipIndex=0;
+$('anotherTip').addEventListener('click',()=>{$('tip').textContent=messages[tipIndex=(tipIndex+1)%messages.length]});
+function makeMessage(){const n=$('sellName').value.trim(),p=$('sellPrice').value.trim(),d=$('sellDetails').value.trim();if(!n){$('messageFeedback').textContent='Contanos primero qué ofrecés. 🌼';$('sellName').focus();return ''}let text='🌷 ¡Hola, Chañar! Quiero compartirte lo que hago: '+n+'.';if(p)text+='\n💚 Precio: '+p+'.';if(d)text+='\n✨ '+d;text+='\n📩 Si te interesa, escribime para consultar o encargar. ¡Gracias por apoyar a los emprendimientos locales!';$('messageOutput').textContent=text;$('messageFeedback').textContent='¡Listo! Podés compartirlo o copiarlo.';return text}
+$('makeMessage').addEventListener('click',makeMessage);
+$('shareMessage').addEventListener('click',()=>{const text=makeMessage();if(text)window.open('https://wa.me/?text='+encodeURIComponent(text),'_blank','noopener,noreferrer')});
+$('copyMessage').addEventListener('click',()=>{const text=makeMessage();if(text)copyText(text,$('messageFeedback'),'¡Mensaje copiado! Ya podés pegarlo donde quieras. 🌷')});
 })();
-</script></body></html>
+</script>
+</body>
+</html>
